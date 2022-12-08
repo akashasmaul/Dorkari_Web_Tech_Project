@@ -52,14 +52,15 @@ include "header.php";
     <img src="../images/laundry.gif" alt="laundry" style="width:100%" width="400" height="250">
     <h3>Laundry Service</h3> </a>
     <p>We offer high quality washing with WASHING POWDER NIRMA.</p>
-    </div>  
+    </div>
+     
       
       
     <div class="w3-third">
     <a href="../view/404.php">
       <img src="../images/driver.gif" alt="driver" style="width:100%" width="400" height="250">
       <h3>Driver Service</h3> </a>
-      <p>You can hire drivers on contract</p>
+      <p>You can hire drivers Contract</p>
     </div>
 
   </div>
