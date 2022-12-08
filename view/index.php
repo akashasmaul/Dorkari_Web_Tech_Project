@@ -2,15 +2,12 @@
 <html lang="en">
   <head>
     <title>Dorkari</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-<body>
-
 <?php
 include "header.php";                 
 ?>
-<form action="/getstarted.php" method="get">
+  </head>
+<body>
+<form action="../view/getstarted.php" method="get">
   <button type="submit" class="w3-button w3-black w3-padding-large w3-large w3-right">Get Started</button>
 </form>
 
