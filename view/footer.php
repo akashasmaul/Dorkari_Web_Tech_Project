@@ -15,8 +15,8 @@
 	<h5>info@dorkari.com</h5>
     <a href="../view/index.php">Home</a>
   <a href="../view/Services.php">Our Services</a>
-  <a href="../view/contact.php">Contact US</a>
-  <a href="../view/PrivacyPolicy.php">Privacy Policy</a>
+  <a href="../view/us.php">Contact US</a>
+  <a href="../view/PP.php">Privacy Policy</a>
   <a href="../view/tnc.php">Terms & Condition</a>
   <a href="../view/registation.php">SignUp</a>
   <center><h3 style="color: white;">Copyright © 2022 Dorkari Platform Limited | All Rights Reserved.</h1></center>

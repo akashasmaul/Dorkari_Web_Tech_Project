@@ -14,16 +14,17 @@
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="../view/index.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Home</a>
     <a href="../view/Services.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Services</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="../view/news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">News</a>
+    <a href="../view/us.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About US</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Jobs</a>
     <a href="../view/getstarted.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sign Up</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="../view/Services.php" class="w3-bar-item w3-button w3-padding-large">Services</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="../view/news.php" class="w3-bar-item w3-button w3-padding-large">News</a>
+    <a href="#../view/us.php" class="w3-bar-item w3-button w3-padding-large">About US</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Sign Up</a>
   </div>
 </div>

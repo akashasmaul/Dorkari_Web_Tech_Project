@@ -10,10 +10,9 @@ include "header.php";
 ?>
 </head>
 <body>
-  
-<?php
-include "SignUp-Form.php";                 
-?>
+ <center>
+<embed type="text/html" src="../view/SignUp-Form.php"  width="1000" height="1000">
+</center> 
 
 <?php
 include "footer.php";                 
