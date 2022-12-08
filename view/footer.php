@@ -12,8 +12,8 @@
 	<h5>123 Street, Dhaka, bangladesh</h5>
 	<h5>01789123456</h5>
 	<h5>info@chakribakri.com</h5>
-    <a href="../view/home.php">Home</a>
-  <a href="../view/Service.php">Our Services</a>
+    <a href="../view/index.php">Home</a>
+  <a href="../view/Services.php">Our Services</a>
   <a href="../view/contact.php">Contact US</a>
   <a href="../view/PrivacyPolicy.php">Privacy Policy</a>
   <a href="../view/tnc.php">Terms & Condition</a>

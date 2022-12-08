@@ -24,7 +24,7 @@
           <h1>Hello, There!</h1>
           <p>Enter your personal details and start journey with us</p>
         </div>
-        <div class="green-bg">
+        <div class="green-bg">        
           <button type="button">Sign Up</button>
         </div>
         <form class="signup-form">
@@ -48,6 +48,7 @@
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" />
           </div>
+          
           <button type="button">Sign Up</button>
         </form>
       </div>
