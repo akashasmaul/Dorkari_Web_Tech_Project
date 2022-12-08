@@ -61,9 +61,12 @@ include "header.php";
       <img src="../images/driver.gif" alt="driver" style="width:100%" width="400" height="250">
       <h3>Driver Service</h3> </a>
       <p>You can hire drivers Contract</p>
-    </div>
-
+    </div>    
   </div>
+
+  <form action="../view/index.php" method="get">
+  <button type="submit" class="w3-button w3-red w3-padding-large w3-large w3-center">Go Back</button>
+</form>
 
 
 <?php

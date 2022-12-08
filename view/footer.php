@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-</head>
+
+</head   
+
 <body>
     
 <footer class="w3-container w3-padding-64 w3-center w3-opacity"> 
@@ -10,8 +11,8 @@
 
 <h4>Find Us</h4>
 	<h5>123 Street, Dhaka, bangladesh</h5>
-	<h5>01789123456</h5>
-	<h5>info@chakribakri.com</h5>
+	<h5>01781770073</h5>
+	<h5>info@dorkari.com</h5>
     <a href="../view/index.php">Home</a>
   <a href="../view/Services.php">Our Services</a>
   <a href="../view/contact.php">Contact US</a>
