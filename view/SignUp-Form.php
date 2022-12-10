@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+ 
   </head>
   <body>
     <div class="container">
@@ -24,10 +25,13 @@
           <h1>Hello, There!</h1>
           <p>Enter your personal details and start journey with us</p>
         </div>
+        
         <div class="green-bg">
         
           <button type="button">Sign Up</button>
+          
         </div>
+       
         <form class="signup-form">
           <h1>Create Account</h1>
           <div class="social-media">
@@ -48,12 +52,13 @@
           <div class="input-group">
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" />
-          </div>
+          </div>         
           
           <button type="button">Sign Up</button>
         </form>
       </div>
-    </div>
+      
+    </div>    
 
     <script src="../js/script_signup.js"></script>
   </body>
