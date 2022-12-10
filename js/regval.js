@@ -8,6 +8,7 @@ function validateForm() {
       return false;
       
     }
+
 // email validation
     var emailval=document.forms["signup"]["useremail"].value;
     var pattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -20,7 +21,9 @@ function validateForm() {
        
 
         if(nameExists2())
-        return true;
+        {
+            passchk();
+        }
 
     }
     else{
@@ -31,7 +34,23 @@ function validateForm() {
 
     }
     }
-    
+    //password valid
+    let passchk=document.forms["signup"]["psw"].value;
+    if (passchk == ""){
+        alert("Password must be filled out");
+        return false; 
+    }
+
+
+  }
+
+  function passchk()
+  {
+    let passchk=document.forms["signup"]["psw"].value;
+    if (passchk == ""){
+        alert("Password must be filled out");
+        return false; 
+    }
   }
 
   

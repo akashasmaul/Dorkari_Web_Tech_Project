@@ -10,11 +10,11 @@ include "header.php";
 ?>
 </head>
 <body>
-    
+ <center> 
 <?php
 include "../view/signupin.php";                 
 ?> 
-
+</center>  
 
 
 <?php

@@ -19,6 +19,9 @@ setcookie("mycokie","hello")
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+<?php
+include "../control/RegistrationAction.php";              
+?>
     <style>
 
 
@@ -32,15 +35,14 @@ setcookie("mycokie","hello")
   outline: none;
 }
 
-.body {
+body {
 	background: #f6f5f7;
-	display: flex;
+	
 	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+	
+	flex-direction: column;	
 	height: 200vh;
-	margin: -20px  25px;
+	
 }
 
 h1 {
@@ -64,12 +66,7 @@ span {
 	font-size: 12px;
 }
 
-a {
-	color: #333;
-	font-size: 14px;
-	text-decoration: none;
-	margin: 15px 0;
-}
+
 
 button {
 	border-radius: 20px;
@@ -252,6 +249,7 @@ input {
 	height: 40px;
 	width: 40px;
 }
+.error {color: #DDDDDD;}
     </style>
 
 </head>
@@ -259,7 +257,7 @@ input {
 <body>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-	<form name="signup" action ="../view/404.php" onsubmit="return validateForm()" method="post"  enctype="multipart/form-data">
+	<form name="signup" action ="../control/PostRegistrationAction.php" onsubmit="return validateForm()" method="post"  enctype="multipart/form-data">
 			<h1>Create Account</h1>
 			<div class="social-container">
 				<a href="https://www.facebook.com/ak4ash" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -267,14 +265,28 @@ input {
 				<a href="https://github.com/akashasmaul" class="social"><i class="fab fa-github"></i></a>
 			</div>
 			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" name ="username" id ="username" />
-			<input type="email" placeholder="Email"  name ="useremail" id="useremail" />
-			<input type="password" placeholder="Password" id="psw" name="psw" pattern=“(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}” title=“Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters” />
-			<input type="text" placeholder="Phone Number" name = "phno" id= "phno" >
-			<input type="date" id="birthday" name="birthday" placeholder="Date Of Birth">
-			<br>
+			<input type="text" placeholder="Name *" name ="name" id ="name"value="<?php echo $name;?>">
+			<input type="email" placeholder="Email *"  name ="email" id="email" value="<?php echo $email;?>">
+			<input type="password" placeholder="Password *" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+			title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+			value="<?php echo $psw;?>">
+			<?php include "../control/PasswordAction.php";?>
+			<input type="number" placeholder="Phone Number" name = "phno" id= "phno" value="<?php echo $phno;?>">
+			<input type="date" id="dob" name="dob" placeholder="Date Of Birth" value = "<?php echo $dob; ?>">
+	<div align="left"> 
+		<label for="gender">Select Gender: </label> 
+		<select id="gender" name="gender" >
+  		<option value= <?php echo $gender="Male";?>>Male</option>
+ 		<option value= <?php echo $gender="Female";?>>Female</option>
+  		<option value= <?php echo $gender="Other";?>>Other</option>
+		</select> 
+		<span class="error">* </span>
+	</div>
+			
+			<span class="error">* required field</span> <br>
 			<button type="submit" id="submit" value="Submit">Sign Up</button>
 		</form>
+		
 	</div>
 	<div class="form-container sign-in-container">
 		<form action="#">
@@ -287,7 +299,7 @@ input {
 			<span>or use your account</span>
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
+			<a href="#">Forgot your password?</a> <br>
 			<button>Sign In</button>
 		</form>
 	</div>
@@ -306,7 +318,7 @@ input {
 		</div>
 	</div>
 </div>
-<?php include "../control/PasswordAction.php";?>
+
 
 <script src="../js/regval.js"></script>
 </body>

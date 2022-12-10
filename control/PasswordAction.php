@@ -10,8 +10,8 @@
   background: #f1f1f1;
   color: #000;
   position: relative;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 2px;
+  margin-top: 1px;
 }
 
 #message p {
