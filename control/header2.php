@@ -17,7 +17,7 @@
     <a href="../view/news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">News</a>
     <a href="../view/us.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About US</a>
     <a href="../view/job.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Jobs</a>
-    <a href="../view/getstarted.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white ">Sign Up</a>
+    <a href="../control/logout.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white ">Log Out</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -25,12 +25,12 @@
     <a href="../view/Services.php" class="w3-bar-item w3-button w3-padding-large">Services</a>
     <a href="../view/news.php" class="w3-bar-item w3-button w3-padding-large">News</a>
     <a href="#../view/us.php" class="w3-bar-item w3-button w3-padding-large">About US</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Sign Up</a>
+    <a href="../control/logout.php" class="w3-bar-item w3-button w3-padding-large">Log Out</a>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding: 32px 15px 0px">
-  <h1 class="w3-margin w3-jumbo">Welcome to Dorkari</h1> 
+  <h1 class="w3-margin w3-jumbo">Dorkari Admin Panel</h1> 
   
 </header>

@@ -59,7 +59,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     <a href="https://github.com/akashasmaul">
       <img src="../images/akash.png">
       <h3>20-44209-3</h3>            
-      </a><p>If you are gonna exist, why not enjoy it?</p></div>    
+      </a><p>Invictus 🎧💻 Maneo</p></div>    
 
     <div class="w3-half">
     <a href="https://github.com/nuhan20">
@@ -76,7 +76,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     </div>
 
     <div class="w3-half">
-    <a href="facebook.com/zannatul.ferdoussumi.16">
+    <a href="https://facebook.com/zannatul.ferdoussumi.16">
     <img src="../images/sumi.png">
     <h3>20-43007-1</h3> </a>
       <p></p>
