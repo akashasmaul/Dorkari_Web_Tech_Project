@@ -289,7 +289,8 @@ input {
 		
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="../control/LoginAction.php"
+		 method="post" id="frmLogin" onSubmit="return validate();">
 			<h1>Sign in</h1>
 			<div class="social-container">
 			<a href="https://www.facebook.com/ak4ash" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -297,10 +298,11 @@ input {
 				<a href="https://github.com/akashasmaul" class="social"><i class="fab fa-github"></i></a>
 			</div>
 			<span>or use your account</span>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
+			<input type="email" placeholder="Email" name="user_name" id="user_name" />
+			<input type="password" placeholder="Password" name="password" id="password" />
 			<a href="#">Forgot your password?</a> <br>
-			<button>Sign In</button>
+			
+			<button type="submit" name="login" value="Login" >Sign In</button>
 		</form>
 	</div>
 	<div class="overlay-container">

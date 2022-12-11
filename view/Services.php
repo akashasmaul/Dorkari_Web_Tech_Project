@@ -42,13 +42,13 @@ include "header.php";
   <div class="w3-row-padding w3-padding-16 w3-center">
   
     <div class="w3-third">
-    <a href="../view/PestControl.php">
+    <a href="../view/404.php">
     <img src="../images/pest.gif" alt="pest" style="width:100%" width="400" height="250">
     <h3>Pest Control</h3> </a> 
     <p>We offer insects cleaning service</p> </div>
 
     <div class="w3-third">
-    <a href="../view/laundry.php">
+    <a href="../view/404.php">
     <img src="../images/laundry.gif" alt="laundry" style="width:100%" width="400" height="250">
     <h3>Laundry Service</h3> </a>
     <p>We offer high quality washing with WASHING POWDER NIRMA.</p>
