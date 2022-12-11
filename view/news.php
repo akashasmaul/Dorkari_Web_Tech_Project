@@ -10,11 +10,12 @@ include "header.php";
 ?>
 </head>
 <body>
-    <center> <embed type="text/html" src="https://www.thedailystar.net/"  width="1500" height="550"> </center>
-
-<form action="../view/index.php" method="get">
+    <center> <embed type="text/html" src="https://www.thedailystar.net/"  width="1500" height="550">
+    <form action="../view/index.php" method="get">
   <button type="submit" class="w3-button w3-red w3-padding-small w3-large w3-center">Homepage</button>
-</form>
+</form> </center>
+
+
 <?php
 include "footer.php";                
 ?>
