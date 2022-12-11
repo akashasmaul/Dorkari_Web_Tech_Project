@@ -258,21 +258,21 @@ input {
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 	<form name="signup" action ="../control/PostRegistrationAction.php" onsubmit="return validateForm()" method="post"  enctype="multipart/form-data">
-			<h1>Create Account</h1>
-			<div class="social-container">
+	<h1>Create Account</h1>		
+	<div class="social-container">
 				<a href="https://www.facebook.com/ak4ash" class="social"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://www.google.com" class="social"><i class="fab fa-google-plus-g"></i></a>
 				<a href="https://github.com/akashasmaul" class="social"><i class="fab fa-github"></i></a>
 			</div>
 			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name *" name ="name" id ="name"value="<?php echo $name;?>">
-			<input type="email" placeholder="Email *"  name ="email" id="email" value="<?php echo $email;?>">
+			<input type="text" placeholder="Name *" name ="username" id ="username"value="<?php echo $name;?>"/>
+			<input type="email" placeholder="Email *"  name ="useremail" id="useremail" value="<?php echo $useremail;?>"/>
 			<input type="password" placeholder="Password *" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
 			title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-			value="<?php echo $psw;?>">
+			value="<?php echo $psw;?>"/>
 			<?php include "../control/PasswordAction.php";?>
-			<input type="number" placeholder="Phone Number" name = "phno" id= "phno" value="<?php echo $phno;?>">
-			<input type="date" id="dob" name="dob" placeholder="Date Of Birth" value = "<?php echo $dob; ?>">
+			<input type="number" placeholder="Phone Number" name = "phno" id= "phno" value="<?php echo $phno;?>"/>
+			<input type="date" id="dob" name="dob" placeholder="Date Of Birth" value = "<?php echo $dob; ?>"/>
 	<div align="left"> 
 		<label for="gender">Select Gender: </label> 
 		<select id="gender" name="gender" >

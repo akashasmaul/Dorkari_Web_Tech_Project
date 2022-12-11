@@ -10,7 +10,7 @@
     <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = $passErr = $usernameErr = $phnoErr = $pfrjbErr = "";
-$name = $email = $gender = $comment = $website = $psw = $username = $phno = $nid = $rfr = $pfrjb = $dob ="";
+$name = $email = $gender = $comment = $website = $psw = $username = $phno = $nid = $rfr = $pfrjb = $useremail = $dob =  "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {

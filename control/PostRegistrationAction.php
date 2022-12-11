@@ -31,15 +31,15 @@ if ($conn->connect_error) {
 else{
 // insert start
 
-$name = $_POST['name'];
-$email = $_POST['email'];
+$username = $_POST['username'];
+$useremail = $_POST['useremail'];
 $psw = $_POST['psw'];
 $gender = $_POST['gender'];
 $phno = $_POST['phno'];
 $dob = $_POST['dob'];
 
 $sql = "INSERT INTO reg (name, email, password, phno, gender, dob)
-VALUES ('$name', '$email', '$psw','$phno','$gender','$dob')";
+VALUES ('$username', '$useremail', '$psw','$phno','$gender','$dob')";
 
 if ($conn->query($sql) === TRUE) {
   
@@ -67,12 +67,13 @@ LIMIT 1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table><tr> <th>Unique ID</th> <th>Name</th> <th>Phone Number</th> <th>Gender</th><th>Date of Birth</th></tr>";
+    echo "<table><tr> <th>Unique ID</th> <th>Name</th> <th>Email</th> <th>Phone Number</th> <th>Gender</th><th>Date of Birth</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<tr > 
         <td>" . $row["uid"]. "</td> 
          <td>" . $row["name"]. "</td>
+         <td>" . $row["email"]. "</td>
          <td>" . $row["phno"]. "</td>
          <td>" . $row["gender"]. "</td>
          <td>" . $row["dob"]. "</td>     
