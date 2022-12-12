@@ -39,12 +39,12 @@ include "header.php";
     </div>    
   </div>
  
-
+  <form action="../view/Services.php" method="get">
+  <button type="submit" class="w3-button w3-red w3-padding-large w3-large w3-center">Go Back</button>
+</form>
 
     </div>    
-    <form action="../view/Services.php" method="get">
-  <button type="submit" class="w3-button w3-red w3-padding-large w3-large w3-left">Go Back</button>
-</form>
+  
 
   </div>
 

@@ -289,7 +289,7 @@ input {
 		
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="../control/LoginAction.php"
+		<form action="../view/userpanel.php"
 		 method="post" id="frmLogin" onSubmit="return validate();">
 			<h1>Sign in</h1>
 			<div class="social-container">
