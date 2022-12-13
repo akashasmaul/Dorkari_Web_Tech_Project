@@ -18,6 +18,7 @@
   <a href="../view/us.php">Contact US</a>
   <a href="../view/PP.php">Privacy Policy</a>
   <a href="../view/tnc.php">Terms & Condition</a>
+  <a href="../view/stafflogin.php">Staff Login</a>
   <a href="../view/adminlogin.php">Admin Login</a>
   <center><h3 style="color: white;">Copyright © 2022 Dorkari Platform Limited | All Rights Reserved.</h1></center>
 </div>

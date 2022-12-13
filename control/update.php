@@ -11,7 +11,7 @@ $uphnno = $_POST["uphnno"];
 // sql to update a record
 $sql = "UPDATE reg SET name= '$uname', email = '$uemail',
  phno = '$uphnno', gender = '$ugender', dob = '$udob',
- address='$uadress', WHERE uid=$uid";
+ address='$uadress' WHERE uid=$uid";
   
    
 

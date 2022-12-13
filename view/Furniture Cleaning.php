@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furniture Painting</title>
+    <title>Furniture Cleaning</title>
 <?php
 include "header.php";                  
 ?>
@@ -13,22 +13,22 @@ include "header.php";
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">    
-     <center> <h1><b>Furniture Painting Services</b></h1> <br>  </center>
+     <center> <h1><b>Furniture Cleaning Services</b></h1> <br>  </center>
       <div class="w3-row-padding w3-padding-16 w3-center">
   
     <div class="w3-half">
-      <img src="../images/f1.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/fc1.jpg" alt="" style="width:100%" width="450" height="250">
     </div>    
 
     <div class="w3-half">
-      <img src="../images/f2.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/fc2.jpeg" alt="" style="width:100%" width="450" height="250">
     </div>  
 
     <div class="w3-half">
-      <img src="../images/f3.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/fc3.jpg" alt="" style="width:100%" width="450" height="250">
     </div> 
     <div class="w3-half">
-      <img src="../images/f4.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/fc4.jpg" alt="" style="width:100%" width="450" height="250">
     </div>      
   </div>   
 </div>
@@ -68,7 +68,7 @@ include "header.php";
       <h4>Place Order</h4>             
       <h6>Confirm your order by clicking 'Place order'.</h6> <br> 
             
-      </div>
+    </div>
     <form action="../view/PestControl.php" method="get">
   <button type="submit" class="w3-button w3-red w3-padding-large w3-large w3-left">Go Back</button>
 </form>

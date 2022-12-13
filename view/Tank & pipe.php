@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furniture Painting</title>
+    <title>Tank and Pipe Cleaning</title>
 <?php
 include "header.php";                  
 ?>
@@ -13,22 +13,22 @@ include "header.php";
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">    
-     <center> <h1><b>Furniture Painting Services</b></h1> <br>  </center>
+     <center> <h1><b>Tank & Pipe Cleaning Services</b></h1> <br>  </center>
       <div class="w3-row-padding w3-padding-16 w3-center">
   
     <div class="w3-half">
-      <img src="../images/f1.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/tp5.jpg" alt="" style="width:100%" width="450" height="250">
     </div>    
 
     <div class="w3-half">
-      <img src="../images/f2.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/tp2.jpg" alt="" style="width:100%" width="450" height="250">
     </div>  
 
     <div class="w3-half">
-      <img src="../images/f3.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/tp3.jpg" alt="" style="width:100%" width="450" height="250">
     </div> 
     <div class="w3-half">
-      <img src="../images/f4.jpg" alt="tv" style="width:100%" width="450" height="250">
+      <img src="../images/tp4.jpg" alt="" style="width:100%" width="450" height="250">
     </div>      
   </div>   
 </div>
