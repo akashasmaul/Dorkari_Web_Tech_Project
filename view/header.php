@@ -15,7 +15,7 @@
     <a href="../view/index.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Home</a>
     <a href="../view/Services.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Services</a>
     <a href="../view/news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">News</a>
-    <a href="../view/us.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About US</a>
+    <a href="../view/US2.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About US</a>
     <a href="../view/job.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Jobs</a>
     <a href="../view/getstarted.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white ">Sign Up</a>
   </div>

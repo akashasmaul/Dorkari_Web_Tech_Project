@@ -20,6 +20,8 @@ include "header2.php";
 <button onclick="RegU()" class="w3-button w3-red w3-padding-large w3-large w3-center">View Registered Users</button>
 <button onclick="ModU()" class="w3-button w3-red w3-padding-large w3-large w3-center">Modify Registered Users</button>
 <button onclick="DelU()" class="w3-button w3-red w3-padding-large w3-large w3-center">Delete Registered Users</button>
+<br><br>
+<button onclick="addS()" class="w3-button w3-red w3-padding-large w3-large w3-center">Recruit Staff</button>
 </div> 
            
 </center>   
@@ -34,6 +36,10 @@ function ModU() {
 }
 function DelU() {
   location.replace("../data/DeleteUsers.php")
+}
+
+function addS() {
+  location.replace("../data/addS.php")
 }
 </script>
 <?php
