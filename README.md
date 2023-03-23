@@ -1,6 +1,6 @@
 # Dorkari Platform Ltd.
 
-## This is a service provider website. We used HTML and CSS for the frontend and PHP, JS, and SQL for the backend. It's a dream project, and wanna improve it in the future.
+## This is a service provider website. We used HTML and CSS for the frontend and PHP, JS, and SQL for the backend. It's a dream project, and want to improve it in the future for industry level.
 
 ### Preview
 
